@@ -1,0 +1,12 @@
+<html>
+<head>
+  <meta>
+  <title>sematic tags</title>
+</head>
+<body>
+  <header>      <!--header is the top of the web site-->
+    <nav>      <!--nav bar is always inside the header tag it contains some function serching-->
+      <li>home</li>
+      <li>about</li>
+    </nav>
+  </header>

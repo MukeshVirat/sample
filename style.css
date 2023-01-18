@@ -1,0 +1,34 @@
+.backgroundandtextcolour {      /*class selector*/
+  color: #FFEA20;
+  background-color: red;
+
+}
+.bordering_the_text {
+border:5px dotted blue;
+}
+.text_alingment_center {
+  text-align: center;
+}
+.text_alingment_right {
+  text-align:right;
+}
+.letter_spacing {
+  letter-spacing: 5px;
+}
+.controling_size_and_width_of_heading {
+  height: 80px;
+  width: 600px;
+  background-color: green;
+}
+.font_famliy_serif {
+  font-family:"Times New Roman",serif;
+}
+#my-id {        /*id selector*/
+  /*  background-color: #FFEA20;*/
+  color: #439A97;
+}
+p {    /*element selector*/
+
+  color: red;
+
+}

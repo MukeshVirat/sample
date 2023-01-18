@@ -1,0 +1,39 @@
+.parent {
+  position: relative;     /*used to give relation to parent wit child*/
+  background-color: green;
+  width: 600px;
+  height: 600px;
+}
+
+.child {
+  position: absolute;
+  top: 0;
+  right:0;
+  background-color: grey;
+  width: 200px;
+  height: 200px;
+  text-align:center;
+}
+
+.child1 {
+  position: absolute;
+  padding-left: 3px;
+  top: 0;
+  left: :0;
+  background-color: grey;
+  width:60px;
+  height: 60px;
+  text-align: justify;
+}
+
+.child2 {
+  position:absolute;
+  margin-left: 70px;
+  padding-left: 3px;
+  top: 0;
+  left: :0;
+  background-color: grey;
+  width:60px;
+  height: 60px;
+  text-align: justify;
+}

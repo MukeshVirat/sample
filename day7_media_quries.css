@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: blue;
+}
+@media (min-width:760px) {    /*when the screen size is increases to
+                                   760 background whill change to yellow from bluee*/
+     body {
+    background-color: yellow;
+  }
+}
+@media (min-width:1000px) {  /*when the screen size is increases to
+                                   1200px background whill change to gren from yellow*/
+  body
+  {
+    background-color: green;
+  }
+
+}

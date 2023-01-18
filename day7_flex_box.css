@@ -1,0 +1,73 @@
+
+body {
+  background-color: black;
+
+}
+.parent1 {
+  background-color: white;
+  margin-left: 1px;
+  width: 800px;
+  height: 500px;
+  display: flex;  /*use to display child class one next one like display inline block */
+  gap: 5px;  /*use to give gap between another child class*/
+  flex-wrap: wrap;/*use to bring child class to next row after it fills 1st row of parent*/
+}
+.child1 {
+  margin: 4px;
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+}
+
+.parent2 {
+  background-color: green;
+  margin-left: 1px;
+  width: 800px;
+  height: 500px;
+  display: flex;  /*use to display child class one next one like display inline block */
+  gap: 5px;  /*use to give gap between another child class*/
+  flex-wrap: wrap;/*use to bring child class to next row after it fills 1st row of parent*/
+  flex-direction: column; /*it is to arrange the child class in colum wise*/
+}
+.child_justify_content {
+  background-color: yellow;
+  width: 200px;
+  height: 200px;
+  justify-content:center;
+}
+
+.parent3 {
+  background-color: purple;
+  margin-left: 1px;
+  width: 800px;
+  height: 500px;
+  display: flex;  /*use to display child class one next one like display inline block */
+  gap: 10px;  /*use to give gap between another child class*/
+  flex-wrap: wrap;/*use to bring child class to next row after it fills 1st row of parent*/
+  align-items: flex-end;; /*used to align the child class in where we need   by checking align-items: you can try different things */
+
+
+}
+
+.child3_1 {
+  text-align: center;
+  margin: 4px;
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+}
+.child3_2 {
+  text-align: center;
+  margin: 4px;
+  background-color: red;
+  width: 200px;
+  height: 300px;
+}
+
+.child_3 {
+  margin: 4px;
+  background-color: blue;
+  width: 200px;
+  height: 150px;
+  text-align: center;
+}
